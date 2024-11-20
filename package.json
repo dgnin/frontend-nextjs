@@ -1,4 +1,6 @@
 {
   "name": "frontend-nextjs",
-  "packageManager": "yarn@4.5.1"
+  "packageManager": "yarn@4.5.1",
+  "devDependencies": {
+  }
 }
