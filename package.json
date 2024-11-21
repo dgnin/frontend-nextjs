@@ -1,6 +1,7 @@
 {
   "name": "frontend-nextjs",
   "packageManager": "yarn@4.5.1",
+  "type": "module",
   "devDependencies": {
     "@types/node": "^22.9.1",
     "@types/react": "^18.3.12",
