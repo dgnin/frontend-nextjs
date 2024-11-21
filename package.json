@@ -2,6 +2,12 @@
   "name": "frontend-nextjs",
   "packageManager": "yarn@4.5.1",
   "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "devDependencies": {
     "@types/node": "^22.9.1",
     "@types/react": "^18.3.12",
