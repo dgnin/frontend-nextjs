@@ -33,6 +33,7 @@
     "allowJs": true
   },
   "include": [
+    "next.config.ts",
     "next-env.d.ts",
     "src",
     ".next/types/**/*.ts"
