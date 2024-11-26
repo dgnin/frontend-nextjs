@@ -28,6 +28,6 @@
     "skipLibCheck": true,
     "allowJs": true
   },
-  "include": ["next.config.ts", "next-env.d.ts", "src", ".next/types/**/*.ts", "tests"],
+  "include": ["next.config.ts", "next-env.d.ts", "src", ".next/types/**/*.ts", "jest.config.ts", "jest.setup.ts"],
   "exclude": ["node_modules"]
 }

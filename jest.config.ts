@@ -7,8 +7,8 @@ const createJestConfig = nextJest({
 
 const config: Config = {
   testEnvironment: 'jsdom',
-  testRegex: '/tests/.*\\.test\\.(ts|tsx)$',
-  setupFilesAfterEnv: ['<rootDir>/tests/setupTests.ts'],
+  testRegex: '/src/.*\\.test\\.(ts|tsx)$',
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 };
 
 export default createJestConfig(config);
