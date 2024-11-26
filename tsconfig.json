@@ -10,6 +10,13 @@
     "allowImportingTsExtensions": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
+    "paths": {
+      "@app/*": ["./src/app/*"],
+      "@icons/*": ["./src/assets/icons/*"],
+      "@styles/*": ["./src/assets/styles/*"],
+      "@components/*": ["./src/components/*"],
+      "@modules/*": ["./src/modules/*"]
+    },
     "resolveJsonModule": true,
     "noEmit": true,
     "plugins": [
